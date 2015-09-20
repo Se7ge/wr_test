@@ -1,5 +1,3 @@
-## wr_test
-
 Usage
 -----------
-./merger.py A B
+```./merger.py A B```
