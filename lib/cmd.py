@@ -8,5 +8,5 @@ def cmd(command):
     result = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     out, error = result.communicate()
     if error is not None:
-        raise error
+        raise Exception(error)
     return out
